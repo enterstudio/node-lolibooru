@@ -18,7 +18,7 @@ class LoliGetter{
             },
             json: true // Automatically stringifies the body to JSON 
         };
-        return rp(options).then((loliData) => { return (loliData[0]) })
+        return rp(options).then((loliData) => { return (loliData) })
     }
 }
 
