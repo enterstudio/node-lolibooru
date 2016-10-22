@@ -1,0 +1,30 @@
+{
+  "name": "node-lolibooru",
+  "version": "0.0.1",
+  "description": "An Node.js module designed to use the Lolibooru API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekonez/node-lolibooru.git"
+  },
+  "keywords": [
+    "loli",
+    "hentai",
+    "nsfw",
+    "porn"
+  ],
+  "author": "nekonez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nekonez/node-lolibooru/issues"
+  },
+  "homepage": "https://github.com/nekonez/node-lolibooru#readme",
+  "dependencies": {
+    "eventemitter3": "^2.0.2",
+    "request": "^2.75.0",
+    "request-promise-any": "^1.0.3"
+  }
+}
