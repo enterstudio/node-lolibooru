@@ -8,3 +8,14 @@ var loli = new Lolibooru();
 
 
 loli.getLoli(1, 1, "1girl").then((data) => { console.log(data) })
+```
+
+NPM Package: https://www.npmjs.com/package/node-lolibooru
+
+Documentation:
+
+.getLoli(limit, page, tags)
+
+limit: The limit of posts, max is 320
+page: The page number you want
+tags: The tags you want to use
